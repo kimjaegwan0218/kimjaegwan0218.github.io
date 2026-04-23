@@ -172,7 +172,7 @@
 ## 📫 Contact
 
 * GitHub: [kimjaegwan0218](https://github.com/kimjaegwan0218)
-* Email: [your-email@example.com](mailto:your-email@example.com)
+* Email: [zxvwer123849@naver.com](mailto:zxvwer123849@naver.com)
 
 ---
 
