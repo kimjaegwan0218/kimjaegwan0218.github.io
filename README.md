@@ -41,6 +41,7 @@
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" />
 </p>
 
 ### Backend
@@ -50,7 +51,9 @@
   <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
   <img src="https://img.shields.io/badge/Spring Data JPA-59666C?style=for-the-badge&logo=spring&logoColor=white" />
   <img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white" />
   <img src="https://img.shields.io/badge/Thymeleaf-005F0F?style=for-the-badge&logo=thymeleaf&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
 </p>
 
 ### Database / Tools
@@ -70,6 +73,9 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/CatBoost-FFCC00?style=for-the-badge&logo=python&logoColor=000" />
+  <img src="https://img.shields.io/badge/YOLOv8-111111?style=for-the-badge&logo=python&logoColor=white" />
 </p>
 
 ---
@@ -79,7 +85,8 @@
 * **React**를 활용한 사용자 중심 화면 구현
 * **Spring Boot / JPA** 기반의 백엔드 API 및 비즈니스 로직 개발
 * 예약, 웨이팅, 결제 흐름 등 **실제 서비스 중심 기능 설계**
-* **Python 기반 데이터 처리 및 AI 모델 연계 프로젝트 수행**
+* **Python / FastAPI 기반 AI 서버 연동 및 모델 서비스 연결**
+* 이미지 분석, 분류, 예측 결과를 웹 서비스와 연결하는 기능 구현
 * Git / GitHub를 활용한 프로젝트 버전 관리 및 협업
 
 ---
@@ -124,7 +131,26 @@
 
 ---
 
-### 3. KSU Intro Project
+### 3. Car Predict Project
+
+> 차량 이미지와 차량 정보를 바탕으로 차종 분류와 가격 예측을 연결한 중고차 가격 예측 서비스 프로젝트
+
+**Tech**
+`React` `JavaScript` `Axios` `Spring Boot` `Java` `JPA` `Spring Security` `FastAPI` `Python` `PyTorch` `CatBoost` `OpenCV`
+
+**What I Did**
+
+* 프론트엔드, 백엔드, AI 서버를 분리한 구조로 서비스 흐름 설계
+* 데이터를 크롤링 및 전처리 후 모델 학습 
+* 로그인, 회원가입, 마이페이지, 관리자 페이지까지 포함한 서비스 기능 구현
+* AI 모델 결과를 웹 서비스와 연결해 실제 사용 흐름으로 이어지도록 구성
+
+🔗 **GitHub**
+[CarPredict_Project 바로가기](https://github.com/kimjaegwan0218/CarPredict_Project)
+
+---
+
+### 4. KSU Intro Project
 
 > 웹 기초 구조와 UI 구성을 중심으로 구현한 개인 프로젝트
 
@@ -146,6 +172,7 @@
 
 * [Study Cafe Reservation System](https://github.com/kimjaegwan0218/StudyCafe_Project)
 * [Waiting Service Project](https://github.com/kimjaegwan0218/WaitingService_Project/tree/master)
+* [Car Predict Project](https://github.com/kimjaegwan0218/CarPredict_Project)
 * [KSU Intro Project](https://github.com/kimjaegwan0218/HighPrograming/tree/main/KSUIntro)
 
 ---
@@ -172,7 +199,7 @@
 ## 📫 Contact
 
 * GitHub: [kimjaegwan0218](https://github.com/kimjaegwan0218)
-* Email: [zxvwer123849@naver.com](mailto:zxvwer123849@naver.com)
+* Email: [ehdcjsrh1204@gmail.com](mailto:ehdcjsrh1204@gmail.com)
 
 ---
 
