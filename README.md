@@ -76,6 +76,7 @@
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
   <img src="https://img.shields.io/badge/CatBoost-FFCC00?style=for-the-badge&logo=python&logoColor=000" />
   <img src="https://img.shields.io/badge/YOLOv8-111111?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Anomalib (PatchCore)-111111?style=for-the-badge&logo=python&logoColor=white" />
 </p>
 
 ---
@@ -150,7 +151,26 @@
 
 ---
 
-### 4. KSU Intro Project
+### 4. Industrial Defect Detection Project
+
+> 정상(양품) 이미지만으로 학습한 비전 모델이 산업 부품의 이상 영역을 탐지하고, 판정 근거를 히트맵으로 함께 보여주는 품질 검사 AI 서비스
+
+**Tech**
+`Python` `PyTorch` `Anomalib(PatchCore)` `FastAPI` `Java` `Spring Boot` `MariaDB` `HTML` `CSS` `JavaScript`
+
+**What I Did**
+
+* MVTec AD 15개 산업 부품 카테고리의 정상(양품) 이미지 기반 학습 데이터 구성
+* PatchCore(Anomalib) 모델을 카테고리별로 학습하고 `evaluate_all.py`로 성능 재평가해 **Image AUROC 0.90 이상** 달성
+* FastAPI 추론 서버 구축 — 이상 점수(anomaly score) 산출 및 이상 영역 히트맵 시각화 구현
+* Spring Boot(MariaDB) 백엔드로 검사 결과 저장 및 카테고리별 검사 이력 조회 기능 구현
+
+🔗 **GitHub**
+[defect-detection-project 바로가기](https://github.com/kimjaegwan0218/defect-detection-project)
+
+---
+
+### 5. KSU Intro Project
 
 > 웹 기초 구조와 UI 구성을 중심으로 구현한 개인 프로젝트
 
@@ -173,6 +193,7 @@
 * [Study Cafe Reservation System](https://github.com/kimjaegwan0218/StudyCafe_Project)
 * [Waiting Service Project](https://github.com/kimjaegwan0218/WaitingService_Project/tree/master)
 * [Car Predict Project](https://github.com/kimjaegwan0218/CarPredict_Project)
+* [Industrial Defect Detection Project](https://github.com/kimjaegwan0218/defect-detection-project)
 * [KSU Intro Project](https://github.com/kimjaegwan0218/HighPrograming/tree/main/KSUIntro)
 
 ---
