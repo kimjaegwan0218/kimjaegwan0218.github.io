@@ -210,8 +210,8 @@
 
 <div align="center">
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=kimjaegwan0218\&show_icons=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kimjaegwan0218\&layout=compact)
+![GitHub stats](https://github-readme-stats-three-plum-74.vercel.app/api?username=kimjaegwan0218\&show_icons=true)
+![Top Langs](https://github-readme-stats-three-plum-74.vercel.app/api/top-langs/?username=kimjaegwan0218\&layout=compact)
 
 </div>
 
